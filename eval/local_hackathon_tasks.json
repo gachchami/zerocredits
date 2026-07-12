@@ -1,0 +1,78 @@
+[
+  {
+    "task_id": "factual_001",
+    "prompt": "Explain what a GPU is in two concise sentences."
+  },
+  {
+    "task_id": "factual_002",
+    "prompt": "What is Docker? Answer in one sentence."
+  },
+  {
+    "task_id": "factual_003",
+    "prompt": "Explain what an API is in simple terms."
+  },
+  {
+    "task_id": "math_001",
+    "prompt": "Calculate 15% of 240. Return the final answer."
+  },
+  {
+    "task_id": "math_002",
+    "prompt": "A price increases from 80 to 100. What is the percentage increase?"
+  },
+  {
+    "task_id": "math_003",
+    "prompt": "If revenue grows from 500 to 650, what is the growth percentage?"
+  },
+  {
+    "task_id": "sentiment_001",
+    "prompt": "Classify the sentiment as Positive, Negative, or Neutral and justify briefly: I loved the new laptop. It is fast and reliable."
+  },
+  {
+    "task_id": "sentiment_002",
+    "prompt": "Classify the sentiment as Positive, Negative, or Neutral and justify briefly: The app crashes every time I open it."
+  },
+  {
+    "task_id": "sentiment_003",
+    "prompt": "Classify the sentiment as Positive, Negative, or Neutral and justify briefly: The package arrived yesterday."
+  },
+  {
+    "task_id": "summary_001",
+    "prompt": "Summarize the following text in one sentence: GPUs are designed for parallel computation. They are widely used in graphics, scientific computing, and AI workloads."
+  },
+  {
+    "task_id": "summary_002",
+    "prompt": "Summarize the following text in one sentence: Docker containers package applications with their dependencies. This makes software easier to move across machines and environments."
+  },
+  {
+    "task_id": "ner_001",
+    "prompt": "Extract named entities from this text: Lisa Patel joined AMD in Bengaluru on July 12, 2026."
+  },
+  {
+    "task_id": "ner_002",
+    "prompt": "Extract named entities from this text: Microsoft opened a new AI lab in London in March 2025."
+  },
+  {
+    "task_id": "codegen_001",
+    "prompt": "Write a Python function add(a, b) that returns the sum of a and b. Return code only."
+  },
+  {
+    "task_id": "codegen_002",
+    "prompt": "Write a Python function is_even(n) that returns True if n is even, otherwise False. Return code only."
+  },
+  {
+    "task_id": "codedebug_001",
+    "prompt": "Fix this Python code and return corrected code only:\n\ndef add(a, b):\n    return a - b"
+  },
+  {
+    "task_id": "codedebug_002",
+    "prompt": "Fix this Python code and return corrected code only:\n\ndef square(x):\n    return x + x"
+  },
+  {
+    "task_id": "logic_001",
+    "prompt": "Logic puzzle: A is taller than B. B is taller than C. Who is the shortest? Return only the name."
+  },
+  {
+    "task_id": "logic_002",
+    "prompt": "Logic puzzle: Red is left of Blue. Green is right of Blue. Which color is in the middle? Return only the color."
+  }
+]
