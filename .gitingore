@@ -1,0 +1,102 @@
+# ==========================================
+# macOS / OS X
+# ==========================================
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon_
+._*
+.Spotlight-V100
+.Trashes
+
+# ==========================================
+# Visual Studio Code
+# ==========================================
+.vscode/
+!.vscode/extensions.json
+*.code-workspace
+.history/
+.ionide/
+
+# ==========================================
+# Python (Standard & Virtual Environments)
+# ==========================================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+bin/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Testing and coverage
+.cache
+.pytest_cache/
+.tox/
+.nox/
+coverage.xml
+*.cover
+*.py,cover
+.htmlcov/
+htmlcov/
+.nosexy/
+nosetests.xml
+sysinfo.txt
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# MyPy and type checking
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Poetry & Pipenv (Lock files can be kept, but ignore cache)
+.pypoetry/
+.pipenv/
+
+# ==========================================
+# Docker
+# ==========================================
+# Ignore local docker development overrides if preferred
+docker-compose.override.yml
+
+# ==========================================
+# Environment Variables & Secrets (CRITICAL)
+# ==========================================
+.env
+.env.local
+.env.*.local
+*.env
+# Except sample files
+!.env.example
+
