@@ -71,6 +71,7 @@ htmlcov/
 .nosexy/
 nosetests.xml
 sysinfo.txt
+output/
 
 # Jupyter Notebooks
 .ipynb_checkpoints
@@ -100,3 +101,6 @@ docker-compose.override.yml
 # Except sample files
 !.env.example
 
+#binary models
+
+models/
