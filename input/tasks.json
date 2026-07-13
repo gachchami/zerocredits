@@ -1,10 +1,258 @@
 [
   {
-    "task_id": "t1",
-    "prompt": "What is machine learning?"
+    "task_id": "factual_01",
+    "prompt": "What is machine learning? Explain it in two sentences."
   },
   {
-    "task_id": "t2",
+    "task_id": "factual_02",
+    "prompt": "What is the difference between RAM and storage?"
+  },
+  {
+    "task_id": "factual_03",
+    "prompt": "Why does the sky appear blue during the day?"
+  },
+  {
+    "task_id": "factual_04",
+    "prompt": "What does HTTP status code 404 mean?"
+  },
+  {
+    "task_id": "factual_05",
+    "prompt": "What is the purpose of a database index?"
+  },
+  {
+    "task_id": "factual_06",
+    "prompt": "Name the three main states of matter and give one example of each."
+  },
+  {
+    "task_id": "factual_07",
+    "prompt": "What is overfitting in machine learning, and how can it be reduced?"
+  },
+  {
+    "task_id": "factual_08",
+    "prompt": "Explain the difference between authentication and authorization."
+  },
+  {
+    "task_id": "math_01",
     "prompt": "Calculate 15% of 200."
+  },
+  {
+    "task_id": "math_02",
+    "prompt": "A shirt costs $80 and is discounted by 25%. What is the final price?"
+  },
+  {
+    "task_id": "math_03",
+    "prompt": "Solve for x: 3x + 7 = 25."
+  },
+  {
+    "task_id": "math_04",
+    "prompt": "A train travels 180 kilometers in 3 hours. What is its average speed?"
+  },
+  {
+    "task_id": "math_05",
+    "prompt": "What is the probability of rolling an even number on a fair six-sided die?"
+  },
+  {
+    "task_id": "math_06",
+    "prompt": "A rectangle has length 12 cm and width 7 cm. Calculate its area and perimeter."
+  },
+  {
+    "task_id": "math_07",
+    "prompt": "If an investment grows from $1,200 to $1,500, what is the percentage increase?"
+  },
+  {
+    "task_id": "math_08",
+    "prompt": "A bag contains 5 red, 3 blue, and 2 green balls. What is the probability of drawing a blue ball?"
+  },
+  {
+    "task_id": "sentiment_01",
+    "prompt": "Classify the sentiment as positive, negative, or neutral: I absolutely loved the movie."
+  },
+  {
+    "task_id": "sentiment_02",
+    "prompt": "Classify the sentiment as positive, negative, or neutral: The delivery arrived three days late and the box was damaged."
+  },
+  {
+    "task_id": "sentiment_03",
+    "prompt": "Classify the sentiment as positive, negative, or neutral: The meeting starts at 10 AM tomorrow."
+  },
+  {
+    "task_id": "sentiment_04",
+    "prompt": "Return only one label from [positive, negative, neutral]: The product works well, although the setup was confusing."
+  },
+  {
+    "task_id": "sentiment_05",
+    "prompt": "Is this review favorable or unfavorable? Return one word only: The battery lasts all day and charges quickly."
+  },
+  {
+    "task_id": "sentiment_06",
+    "prompt": "Classify the tone as optimistic, pessimistic, or neutral: We may face delays, but the team is confident it can finish this month."
+  },
+  {
+    "task_id": "sentiment_07",
+    "prompt": "Return JSON with a single key named sentiment: I regret buying this laptop because it crashes constantly."
+  },
+  {
+    "task_id": "sentiment_08",
+    "prompt": "Classify the sentiment as positive, negative, neutral, or mixed: The camera is excellent, but the battery life is disappointing."
+  },
+  {
+    "task_id": "summary_01",
+    "prompt": "Summarize in one sentence: Solar panels convert sunlight into electricity. They can reduce electricity bills and carbon emissions, but their output depends on weather and available roof space."
+  },
+  {
+    "task_id": "summary_02",
+    "prompt": "Summarize the following in exactly three bullet points: The company increased revenue by 18%, reduced operating expenses by 6%, launched two new products, and expanded into three international markets."
+  },
+  {
+    "task_id": "summary_03",
+    "prompt": "Write a 20-word summary: A database transaction is a sequence of operations treated as one unit. It either completes fully or is rolled back."
+  },
+  {
+    "task_id": "summary_04",
+    "prompt": "Summarize for a non-technical reader: Kubernetes schedules containers across machines, restarts failed workloads, and helps applications scale."
+  },
+  {
+    "task_id": "summary_05",
+    "prompt": "Provide a concise title and a two-sentence summary: Remote work can increase flexibility and reduce commuting, but it may also create communication challenges and feelings of isolation."
+  },
+  {
+    "task_id": "summary_06",
+    "prompt": "Summarize only the risks mentioned here: The migration could cause temporary downtime, data inconsistencies, unexpected cloud costs, and compatibility issues with older clients."
+  },
+  {
+    "task_id": "summary_07",
+    "prompt": "Condense this to one short paragraph without losing any numbers: The trial enrolled 240 participants. 160 received treatment and 80 received placebo. The treatment group showed a 12% improvement, while the placebo group showed 3%."
+  },
+  {
+    "task_id": "summary_08",
+    "prompt": "Create a TL;DR: The software update improves startup speed, fixes a memory leak, adds dark mode, and removes support for operating systems older than version 12."
+  },
+  {
+    "task_id": "ner_01",
+    "prompt": "Extract named entities from this sentence and label each as PERSON, ORGANIZATION, or LOCATION: Satya Nadella spoke at Microsoft headquarters in Redmond."
+  },
+  {
+    "task_id": "ner_02",
+    "prompt": "Return JSON with keys people, organizations, and locations: Tim Cook visited Apple offices in London."
+  },
+  {
+    "task_id": "ner_03",
+    "prompt": "Extract all DATE, MONEY, and ORGANIZATION entities: On July 5, 2026, Acme Corp announced a $12 million investment."
+  },
+  {
+    "task_id": "ner_04",
+    "prompt": "List only the named entities, preserving exact spelling: Sundar Pichai discussed Gemini with researchers at Google DeepMind."
+  },
+  {
+    "task_id": "ner_05",
+    "prompt": "Extract PRODUCT and COMPANY entities: Samsung launched the Galaxy S26 while Apple promoted the iPhone 18."
+  },
+  {
+    "task_id": "ner_06",
+    "prompt": "Return a JSON array of objects with text and type: SpaceX launched Starship from Texas on Monday."
+  },
+  {
+    "task_id": "ner_07",
+    "prompt": "Extract PERSON, UNIVERSITY, and COUNTRY entities: Ada Lovelace was discussed in a lecture at the University of Oxford in England."
+  },
+  {
+    "task_id": "ner_08",
+    "prompt": "Extract every named entity and its type: The World Health Organization met officials from India in Geneva."
+  },
+  {
+    "task_id": "debug_01",
+    "prompt": "Fix this Python function so it returns the sum of a and b:\n\ndef add(a, b):\n    return a - b"
+  },
+  {
+    "task_id": "debug_02",
+    "prompt": "Find and fix the bug. Return corrected Python code only:\n\ndef first_item(items):\n    return items[1]"
+  },
+  {
+    "task_id": "debug_03",
+    "prompt": "Why does this Python code raise a TypeError, and how should it be fixed?\n\nage = 40\nprint('Age: ' + age)"
+  },
+  {
+    "task_id": "debug_04",
+    "prompt": "Fix the infinite loop:\n\ncount = 0\nwhile count < 5:\n    print(count)"
+  },
+  {
+    "task_id": "debug_05",
+    "prompt": "Correct this JavaScript function:\n\nfunction multiply(a, b) {\n  return a + b;\n}"
+  },
+  {
+    "task_id": "debug_06",
+    "prompt": "Fix this Python code so it safely returns None for an empty list:\n\ndef maximum(values):\n    return max(values)"
+  },
+  {
+    "task_id": "debug_07",
+    "prompt": "The following function should count vowels but gives the wrong result. Fix it:\n\ndef count_vowels(text):\n    count = 0\n    for ch in text:\n        if ch in 'bcdfg':\n            count += 1\n    return count"
+  },
+  {
+    "task_id": "debug_08",
+    "prompt": "Fix the off-by-one error and return corrected code only:\n\ndef print_one_to_five():\n    for i in range(1, 5):\n        print(i)"
+  },
+  {
+    "task_id": "logic_01",
+    "prompt": "All cats are mammals. Some mammals are black. Can we conclude that some cats are black? Explain briefly."
+  },
+  {
+    "task_id": "logic_02",
+    "prompt": "Alice is taller than Bob. Bob is taller than Carol. Who is the shortest?"
+  },
+  {
+    "task_id": "logic_03",
+    "prompt": "There are three boxes labeled Apples, Oranges, and Mixed, but every label is wrong. You may draw one fruit from one box. Which box should you draw from first?"
+  },
+  {
+    "task_id": "logic_04",
+    "prompt": "If today is Tuesday, what day will it be 100 days from today?"
+  },
+  {
+    "task_id": "logic_05",
+    "prompt": "A is left of B. C is right of B. D is left of A. Give the order from left to right."
+  },
+  {
+    "task_id": "logic_06",
+    "prompt": "Exactly one of these statements is true: (1) The key is in drawer A. (2) The key is not in drawer A. Which conclusion can be made?"
+  },
+  {
+    "task_id": "logic_07",
+    "prompt": "Five people stand in a line. Mira is before Raj, Raj is before Kiran, and Dev is after Kiran. Which person must appear before Dev?"
+  },
+  {
+    "task_id": "logic_08",
+    "prompt": "A farmer has chickens and cows. There are 12 heads and 32 legs. How many chickens and cows are there?"
+  },
+  {
+    "task_id": "codegen_01",
+    "prompt": "Write a Python function named is_even that returns True when an integer is even."
+  },
+  {
+    "task_id": "codegen_02",
+    "prompt": "Write Python code only: implement factorial(n) iteratively and raise ValueError for negative input."
+  },
+  {
+    "task_id": "codegen_03",
+    "prompt": "Create a JavaScript function that removes duplicate values from an array while preserving order."
+  },
+  {
+    "task_id": "codegen_04",
+    "prompt": "Write a Python function that returns the most frequent word in a string, ignoring case and punctuation."
+  },
+  {
+    "task_id": "codegen_05",
+    "prompt": "Implement binary search in Python. Return the index when found and -1 otherwise."
+  },
+  {
+    "task_id": "codegen_06",
+    "prompt": "Write a Python dataclass named User with fields name: str, age: int, and active: bool defaulting to True."
+  },
+  {
+    "task_id": "codegen_07",
+    "prompt": "Write a SQL query to return the five customers with the highest total order value from customers(id, name) and orders(customer_id, amount)."
+  },
+  {
+    "task_id": "codegen_08",
+    "prompt": "Write a Python function parse_positive_int(value: str) -> int that strips whitespace, validates that the value is a positive integer, and raises ValueError otherwise."
   }
 ]
